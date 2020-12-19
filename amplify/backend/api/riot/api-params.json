@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/champions",
+            "lambdaFunction": "getChampions",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/champions"
+        }
+    ],
+    "resourceName": "riot",
+    "apiName": "riot",
+    "functionArns": [
+        {
+            "lambdaFunction": "getChampions"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-bitirme-dev-153808-authRole",
+        "unAuthRoleName": "amplify-bitirme-dev-153808-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "getChampions",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

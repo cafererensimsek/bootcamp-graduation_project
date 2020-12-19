@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bitirme-dev-153808-authRole",
+      "UnauthRoleArn": "arn:aws:iam::521537806220:role/amplify-bitirme-dev-153808-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::521537806220:role/amplify-bitirme-dev-153808-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-bitirme-dev-153808-deployment",
+      "UnauthRoleName": "amplify-bitirme-dev-153808-unauthRole",
+      "StackName": "amplify-bitirme-dev-153808",
+      "StackId": "arn:aws:cloudformation:eu-west-1:521537806220:stack/amplify-bitirme-dev-153808/6789d4e0-3564-11eb-a8dc-06755b8a246a",
+      "AmplifyAppId": "d2d37q2u4j36q3"
+    },
+    "categories": {
+      "function": {
+        "getChampions": {}
+      }
+    }
+  }
+}
