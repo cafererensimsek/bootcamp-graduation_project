@@ -69,7 +69,7 @@
         "Timeout": "25",
         "Code": {
           "S3Bucket": "amplify-bitirme-dev-153808-deployment",
-          "S3Key": "amplify-builds/getChampions-7037366c62434c57376a-build.zip"
+          "S3Key": "amplify-builds/getChampions-64546667564a32313167-build.zip"
         }
       }
     },
